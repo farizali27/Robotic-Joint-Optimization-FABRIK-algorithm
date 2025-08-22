@@ -117,7 +117,7 @@ def main():
     #creating link objects
     link1 = Link(23,theta1)
     link2 = Link(15, theta2)
-    link3 = Link(2, theta3)        #last digit of roll number=2
+    link3 = Link(9, theta3)
 
     # Passing link objects to object of RoboticArm class
     arm = RoboticArm([link1, link2, link3],target)
